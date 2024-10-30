@@ -473,6 +473,7 @@ void WordClock::_showDisplay() {
   // Warning symbols should go here, needs logic
   _showLoveHeart();
   _showEaster();
+  _showHalloween();
   _showChristmas();
   _pixels.show();
 // new line, please
