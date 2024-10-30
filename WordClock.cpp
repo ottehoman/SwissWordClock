@@ -18,6 +18,7 @@ WordClock::WordClock(){
 
 void WordClock::begin() {
   // connect to WiFi
+  WiFi.setHostname(HOSTNAME);
   WiFi.begin(WIFI_SSID, WIFI_PASS);
   while (WiFi.status() != WL_CONNECTED) {
     delay(333);

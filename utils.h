@@ -6,6 +6,7 @@
 
   #define WIFI_SSID "YOUR SSID"
   #define WIFI_PASS "YOUR PASS"
+  #define HOSTNAME  "WordClock"
 
 #endif
 
